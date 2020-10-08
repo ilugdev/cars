@@ -1,0 +1,73 @@
+.carsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.carCard {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 15px 50px -10px rgba(0, 0, 0, 0.09);
+  padding: 1.5rem;
+  border-radius: 7px;
+}
+
+.carCard figure {
+  margin: 0 auto;
+}
+
+.carCard figure img {
+  max-width: 100%;
+  border-radius: 7px;
+}
+
+.carCard h1 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.carData h1,
+h2 {
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.carData ul {
+  margin-left: 1rem;
+}
+
+.carData h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.carCardLoading {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  box-shadow: 0 15px 50px -10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 7px;
+  animation: pulseEffect 5s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+@keyframes pulseEffect {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,19 @@
+.filter {
+  color: #000;
+  border: none;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  background: -webkit-linear-gradient(rgb(41, 41, 41), rgb(100, 100, 100));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.filter:first-of-type {
+  margin-left: 0;
+}
+
+.filter:last-of-type {
+  padding-right: 1rem;
+}

@@ -1,0 +1,30 @@
+.header {
+  width: calc(100vw - 2rem);
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1rem 0 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50rem;
+}
+
+.logo {
+  font-weight: 900;
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.social {
+  display: flex;
+  padding: 0;
+}
+
+.socialItem {
+  margin-left: 1rem;
+  font-weight: 300;
+}
+
+.socialItem a {
+  color: #21aa6a;
+}

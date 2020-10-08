@@ -1,0 +1,27 @@
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+
+.filterTitle {
+  font-size: 1.3rem;
+  color: rgb(14, 14, 14);
+}
+
+.filtersContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow-x: scroll;
+  margin-top: 1rem;
+}
+
+.filtersContainer::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}

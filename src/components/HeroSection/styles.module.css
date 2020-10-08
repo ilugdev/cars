@@ -1,0 +1,34 @@
+.heroSection {
+  width: 100%;
+  height: 60vh;
+  background: #1f4037;
+  background: linear-gradient(to right, #3dcac4, #99f2c8);
+  background-size: 200% 200%;
+  animation: gradientEffect 5s ease infinite;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientEffect {
+  0% {
+    background-position: 0% 4%;
+  }
+  50% {
+    background-position: 100% 97%;
+  }
+  100% {
+    background-position: 0% 4%;
+  }
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.carImg {
+  width: 60%;
+}
